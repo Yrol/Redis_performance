@@ -18,7 +18,7 @@ public class ProductService {
 
     public Mono<Product> updateProduct(int id, Mono<Product> productMono) {
         return this.productRepository.findById(id)
-                .flatMap(product -> productMono.doOnNext(pr -> pr.setId(id))) // if the product exists set the ID to the one that is provided in th args
+                .flatMap(p -> productMono.doOnNext(pr -> pr.setId(id))) // if the product exists set the ID to the one that is provided in th args
                 .flatMap(this.productRepository::save);
     }
 }

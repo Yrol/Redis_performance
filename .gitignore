@@ -8,6 +8,8 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+docker/db/*
+docker/pgadmin/*
 *.iws
 *.iml
 *.ipr
