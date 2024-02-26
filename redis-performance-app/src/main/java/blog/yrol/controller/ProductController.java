@@ -1,7 +1,7 @@
 package blog.yrol.controller;
 
 import blog.yrol.entity.Product;
-import blog.yrol.service.ProductService;
+import blog.yrol.service.ProductServiceV1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
 public class ProductController {
 
     @Autowired
-    private ProductService service;
+    private ProductServiceV1 service;
 
     @GetMapping("{id}")
     public Mono<Product> getProduct(@PathVariable int id) {

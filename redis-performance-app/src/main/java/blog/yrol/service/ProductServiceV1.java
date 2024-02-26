@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 @Service
-public class ProductService {
+public class ProductServiceV1 {
 
     @Autowired
     private ProductRepository productRepository;
