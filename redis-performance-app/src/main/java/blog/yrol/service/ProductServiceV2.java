@@ -1,7 +1,6 @@
 package blog.yrol.service;
 
 import blog.yrol.entity.Product;
-import blog.yrol.repository.ProductRepository;
 import blog.yrol.service.util.CacheTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
