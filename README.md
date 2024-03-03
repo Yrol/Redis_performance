@@ -120,11 +120,11 @@ Download JMeter and from the above link and once unzipped go to the `/bin` folde
 ./jmeter -n -t ~/<local_directory>/redis-performance/JMeter/product-service_v2.jmx -l ~/<local_directory>/Redis/redis-performance/JMeter/v2.jtl
 ```
 
-The script location and result output location must be provided as shown.
+The script location and result output location must be provided as shown above.
 
 
 ### Test results
-To access reports, click on the 'Aggregate Report' option in JMeter. Additionally, reports can also be loaded locally when generated via command-line tests
+To access reports, click on the 'Aggregate Report' option in JMeter. Additionally, reports can also be exported when generated via command-line tests
 
 ![](https://i.imgur.com/wbxiEQ5.png)
 
